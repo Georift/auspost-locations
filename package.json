@@ -1,0 +1,17 @@
+{
+  "name": "auspost-locations",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This data has been scraped from AusPost and converted to GeoJSON. Data in this repo is provided without a license. And is used to contribute to [OpenStreetMaps](https://osm.org/).",
+  "main": "convert-to-geojson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@turf/helpers": "^7.2.0",
+    "ramda": "^0.32.0"
+  }
+}

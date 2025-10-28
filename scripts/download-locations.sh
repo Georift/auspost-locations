@@ -1,0 +1,14 @@
+curl 'https://digitalapi.auspost.com.au/locations/v2/points/geo/115.8610488/-31.9525739?&radius=1000&types=PO,UPL,R_SPB,C_SPB&limit=2000&pc=AP' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: en-US,en;q=0.5' \
+  -H 'AUTH-KEY: jAgsMKkO3rOQ3OP60sIegEiAj1yrhVqi' \
+  -H 'Accept-Encoding: gzip, deflate, br, zstd' \
+  -H 'Origin: https://auspost.com.au' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: https://auspost.com.au/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'Pragma: no-cache' \
+  -H 'Cache-Control: no-cache'
