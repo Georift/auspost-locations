@@ -13,7 +13,7 @@ if (!Array.isArray(locations.points)) {
 const features = locations.points.map((obj) => {
 	const { lon, lat } = obj.geo_location
 
-	return turf.feature(turf.point([lon, lat]), obj, {
+	return turf.feature({ type: "Point", coordinates: [lon, lat] }, obj, {
 		id: obj.location_code
 	})
 })
